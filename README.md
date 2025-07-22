@@ -19,21 +19,23 @@
    sudo -u postgres osm2pgsql -d maps --slim --hstore --multi-geometry washington-latest.osm.pbf
 
 
-2. **Install API deps
+2. **Install API deps**
    ```bash
    cd map-api
    npm install
 
-3. **Run API
+3. **Run API**
    ```bash
    node index.js
 
-4.  **View Map
+4.  **View Map**
    ```bash
    Open your browser at http://localhost:3000/index.html
 
 
-## **Project Layout
+ 
+ 
+ **Project Layout**
 ```bash
 MapCore/
 ├── osm-data/             # Raw OSM PBFs (import only)
