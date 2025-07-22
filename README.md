@@ -33,8 +33,8 @@
    Open your browser at http://localhost:3000/index.html
 
 
-## Project Layout
-
+## **Project Layout
+```bash
 MapCore/
 ├── osm-data/             # Raw OSM PBFs (import only)
 └── map-api/
