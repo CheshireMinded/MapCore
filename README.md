@@ -5,7 +5,8 @@
 - **OSM data** stored in PostGIS  
 - A **GeoJSON API** (Node/Express) under `map-api/index.js`  
 - A **Leaflet** front‑end in `map-api/index.html`
- **Project Layout**
+
+Project Layout
 MapCore/
 ├── osm-data/             # Raw OSM PBFs (import only)
 └── map-api/
