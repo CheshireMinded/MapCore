@@ -33,4 +33,15 @@
    Open your browser at http://localhost:3000/index.html
 
 
+## Project Layout
+
+MapCore/
+├── osm-data/             # Raw OSM PBFs (import only)
+└── map-api/
+    ├── index.js          # Express GeoJSON API
+    ├── index.html        # Leaflet front‑end
+    ├── package.json
+    └── package-lock.json
+
+
 
