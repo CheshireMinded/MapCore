@@ -1,0 +1,12 @@
+# Node modules
+map-api/node_modules/
+
+# OSM PBFs (large data files)
+osm-data/*.osm.pbf
+osm-data/*.osm.pbf.*
+
+# NPM logs
+npm-debug.log*
+
+# Optional OS files
+.DS_Store
